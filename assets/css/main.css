@@ -1,0 +1,266 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+/*margins/padding*/
+.center20{
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+    width: 60%;
+}
+
+.mright10{
+    margin-right: 10%;
+}
+
+.mleft10 {
+    margin-left: 5%;
+}
+
+.mbuttom10 {
+    margin-bottom: 10%;
+}
+
+.mtop10{
+    margin-top: 10%;
+}
+.pleft40{
+    padding-left: 50% !important;
+}
+
+.pleft5{
+    padding-left: 5%;
+}
+
+.ptop40{
+    padding-top: 20%;
+}
+
+.p0{
+    padding: 0px !important;
+}
+
+.padding160{
+    padding-top: 160px;
+}
+.height
+{
+    height: 100vh;
+}
+/*colors*/
+
+.backgroundcolor{
+    background: rgba(0, 0, 0, 0.863);
+    height: 100%;
+    
+}
+
+
+/*img*/
+
+.img1{
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url(https://cdn.discordapp.com/attachments/849966051969728512/966813179290206339/bg-masthead.jpg);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img2{
+
+    background-image:url(../img/ipad.png);
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.gradient{
+  background: rgba(0, 0, 0, 0.863);
+  height: 72.5vh;
+}
+
+.img3{
+    width: 1000px;height: 400px ;
+    flex-grow: 3;
+    
+}
+.img4{
+    width: 50%;
+    height: 50%;
+}
+
+.img5{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../img/bg-signup.jpg);
+
+}
+
+.img6{
+    width: 50px;
+height: 50px;
+}
+/*nav*/
+nav  a {
+    text-decoration: none;
+    text-transform: capitalize;
+}
+nav ul li{
+    float: left;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+nav ul{
+    list-style-type: none;
+}
+nav {
+    width: 100%;
+    height: auto;
+    background-color: transparent;
+    position: fixed;
+    
+}
+
+nav ul li  a:hover {
+    color: red;
+    background-color: blue ;
+}
+
+nav ul li  a:hover:active {
+    color: blue;
+}
+
+nav:hover{
+    background-color: rgba(0, 0, 0, 0.8);
+
+}
+
+
+/*fonts*/
+
+.font1{
+    font-weight: 500;
+    font-size: xx-large;
+    text-align: center;
+    color: rgb(41, 12, 41);
+}
+
+.font2{
+    font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    padding-top: 2%;
+    font-weight: 600;
+    font-size: 11vh;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.font3 {
+    color: rgba(255, 255, 255, 0.5) !important;
+    font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    bottom: 20%;
+    position: relative;
+    text-align: center;
+}
+.font4{
+    font-size: xx-large;
+    font-weight: 700;
+    color: white !important;
+    font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    bottom: 25%;
+    position: relative;
+    text-align: center;
+
+}
+/*button*/
+
+.button1{
+    margin-top: 5%;
+    background-color: gray;
+    color: white;
+    border-radius: 1vh;
+    width: 24vh  ;
+    font-size: xx-large;
+    letter-spacing: 0.15rem;
+    font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";;
+}
+.button2{
+    margin-left: 2%;
+    background-color: gray;
+    color: white;
+    border-radius: 1vh;
+
+    font-size: xx-large;
+    letter-spacing: 0.15rem;
+    font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";;
+
+}
+
+.input{
+    text-align: left;
+    width: 40vh;
+    height: 4vh;
+}
+
+/*Containers*/
+.grid-container {
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    
+  }
+  
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .about-item{
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-family: monospace;
+    display: flex;
+    gap: 10px;
+}
+
+.about-item2{
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-family: monospace;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.item{
+    flex: 1 1 40%;
+}
+.item2{
+    flex: 1 1 33;
+    margin-bottom: 10%;
+    background-color: white;
+    color:grey;
+    border-radius: 1vh;
+    width: 100%;
+    height: 10vh;
+}
+
+.flex-foot{
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-family: monospace;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 5%;
+}
